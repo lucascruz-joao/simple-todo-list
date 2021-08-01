@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">simple-todo-list</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="addTask">Adicionar nova tarefa</string>
+    <string name="previous">Voltar</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_task">Título da tarefa</string>
+    <string name="description_task">Descricao</string>
+    <string name="new_task_button">Criar</string>
+</resources>
