@@ -10,7 +10,6 @@ import com.example.simple_todo_list.R
 import com.example.simple_todo_list.model.ToDo
 
 class CustomAdapter(private val dataSet: ArrayList<ToDo>) : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
-    //TODO necessário fazer correção do recyclerView repetindo itens
     class ViewHolder(view: View): RecyclerView.ViewHolder(view) {
         var textViewTaskTitle: TextView = view.findViewById(R.id.textViewTaskTitle)
         var textViewTaskDescription: TextView = view.findViewById(R.id.textViewTaskDescription)
@@ -33,14 +32,4 @@ class CustomAdapter(private val dataSet: ArrayList<ToDo>) : RecyclerView.Adapter
     override fun getItemCount(): Int {
         return dataSet.size
     }
-
-    override fun getItemId(position: Int): Long {
-        return position.toLong()
-    }
-
-    override fun getItemViewType(position: Int): Int {
-        return position
-    }
-
-
 }
